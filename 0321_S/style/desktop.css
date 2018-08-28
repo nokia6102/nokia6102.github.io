@@ -1,0 +1,232 @@
+.fixed-width {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.fixed-width-sm {
+	width: 600px;
+	margin: 0 auto;
+}
+
+/* ----------- nav ---------- */
+
+#nav {
+	height: 40px;
+	background-color: #000;
+}
+
+	.logo {
+		width: 130px;
+		height: 40px;
+		background-color: #da9;
+		float: left;
+	}
+	
+	.nav {
+		height: 40px;
+		width: 550px;
+		float: right;
+	}
+	
+		.nav li {
+			width: 110px;
+			text-align: right;
+			float: left;
+			list-style: none;
+		}
+		
+		.nav a {
+			color: #fff;
+			text-decoration: none;
+			line-height: 40px;
+			display: block;
+			font-size: 85%;
+			letter-spacing: 0.1em;
+		}
+		
+/* ---------- header ---------- */
+
+#header {
+	/*height: 500px;*/
+	background: #000 url('../images/header.jpg') left center no-repeat;
+	background-size: cover;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+	#overlay {
+		padding: 195px 0;
+		text-align: center;
+		background-color: rgba(0, 0, 0, 0.3);
+	}
+	
+		#overlay h1 {
+			font-size: 4em;
+		}
+		
+		#overlay p {
+			width: 650px;
+			margin: 0 auto;
+		}
+
+/* ---------- text ---------- */
+
+h2.title {
+	border: 6px solid #000;
+	font-size: 2.2em;
+	padding: 6px 0;
+	text-align: center;
+	width: 280px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+
+p.article {
+	text-align: center;
+	line-height: 1.5em;
+}
+
+h2.cover-title {
+	text-align: center;
+	color: #fff;
+	font-size: 6em;
+}
+
+span.under-line {
+	border-bottom: 10px solid #fff;
+	padding-bottom: 10px;
+}
+/* ---------- story ---------- */
+
+#our-story {
+	width: 480px;
+	float: left;
+	padding: 130px 0;
+}
+
+#our-story-gallery {
+	width: 480px;
+	float: right;
+}
+
+	#our-story-gallery .gallery {
+		width: 220px;
+		height: 220px;
+		overflow: hidden;
+		margin: 10px;
+		float: left;
+	}
+	
+		#our-story-gallery .gallery img {
+			height: 240px;
+		}
+
+/* ---------- craft ---------- */
+
+#craft {
+	padding: 210px 0;
+	background: #000 url('../images/beer.jpg') left top no-repeat;
+	background-size: cover;
+	margin: 10px 0;
+}
+
+/* ---------- our-beer ---------- */
+
+#our-beer-gallery {
+	width: 480px;
+	height: 480px;
+	float: left;
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+	#our-beer-gallery img {
+		width: 480px;
+	}
+
+#our-beer {
+	width: 480px;
+	float: right;
+	padding: 130px 0;
+}
+
+/* ---------- early ---------- */
+
+#early {
+	padding: 210px 0;
+	background: #000 url('../images/bread.jpg') left top no-repeat;
+	background-size: cover;
+	margin: 10px 0;
+}
+
+/* ---------- our-bread ---------- */
+
+#our-bread {
+	width: 480px;
+	float: left;
+	padding: 130px 0;
+}
+
+#our-bread-gallery {
+	width: 480px;
+	float: right;
+	margin-top: 10px;
+}
+
+	#our-bread-gallery .bread-gallery {
+		width: 220px;
+		height: 440px;
+		margin: 10px;
+		overflow: hidden;
+		float: left;
+	}
+
+/* ---------- contact ---------- */
+
+#contact {
+	text-align: center;
+	background-color: #000;
+	padding: 80px 0;
+}
+
+	#contact h3 {
+		color: #97f;
+		font-size: 2em;
+	}
+
+	#contact p {
+		color: #fff;
+		font-size: 1.6em;
+		letter-spacing: 0.1em;
+		margin: 25px 0;
+	}
+
+	#connect {
+		width: 300px;
+		float: left;
+	}
+	
+		#connect a {
+			color: #fff;
+			text-decoration: none;
+		}
+	
+	#call {
+		width: 300px;
+		float: right;
+	}
+	
+/* ---------- footer ---------- */
+
+#footer {
+	background-color: #333;
+	height: 50px;
+	text-align: center;
+}
+
+	#footer a {
+		color: #fff;
+		margin: 0 20px;
+		text-decoration: none;
+		line-height: 50px;
+	}
