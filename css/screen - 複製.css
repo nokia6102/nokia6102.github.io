@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+/*    background-color: aqua;*/
+}
+
+.date{
+	font-size: 0.7em;
+	text-align: right;
+}
+
+/*======= header start ======*/
+.header{
+    height: 50px;
+    background-color: #2d78bf;
+    padding:  30px 0 10px 0px;
+}
+
+.logo{
+	background: #2d78bf url('../images/logo.gif') left top no-repeat;
+    text-indent: -9999px;
+	margin-left: 10px;
+}
+.nav{
+	height: 28px;
+    list-style: none;
+	background: #fff url('../images/global_nav_bg.gif') left top repeat-x;
+	border-bottom: 2px solid #ccc;
+}
+
+.nav li{
+        float: left;
+        width: 80px; 	
+}
+.nav a{
+    display: block;
+    line-height: 28px;
+	text-align: center;
+	font-size: 80%;
+	color: #333;
+	border-right: 1px solid #cdcdcd;
+	text-decoration: none;
+}
+.nav a:hover{
+		background: #fff url(../images/global_nav_a_bg.gif) left bottom repeat-x;
+	   color: #ffffff;
+}
+
+.container{
+		width: 930px;
+}
+.content{
+	float:left;
+	background: #fff url(../images/leftside_bg.gif) left top repeat-y;
+	width: 715px;
+	margin: 25px auto;
+}
+		.content ul {
+				list-style: none;
+				padding-left: 15px;
+		}
+		.content ul li{
+			border-bottom: 1px solid #ccc;
+		}
+				.content ul li a{
+					display: block;
+					text-indent: 15px;				
+					background: url(../images/arrow.gif) left center no-repeat;
+					font-size: 95%;
+					line-height: 1.5em;
+				}
+
+
+
+			.menu{
+				   float:left;
+					width: 200px;
+			}
+				   .menu h2{
+								background-color: #2d78bf;
+								color: #fff;
+								font-size: 1em;
+								padding: 3px;
+					} 
+			.main{
+ 					float:right;
+				   width: 500px;
+			}
+							.main h1{
+								 border-bottom:  0.5px solid;
+								 border-bottom-color: #a2a1a1;
+								margin: 0 0 15px 0;
+							}
+							.main p{
+									letter-spacing: 1px;
+									line-height: 1em;
+									margin-bottom: 20px;
+							}
+						.main h2{
+							 border-left: 5px solid;
+							 border-left-color: #2d78bf;
+							 border-bottom:  0.5px solid;
+							 border-bottom-color: #a2a1a1;
+							font-size: 85%;
+						}
+		   
+			.ad{
+				text-align: center;
+				float:right;
+				width: 200px;
+				margin-top: 25px;
+			}
+.footer{
+	clear: both;
+	width: 930px;
+	text-align: center;
+	border-top: 2px solid;
+	border-top-color: #a2a1a1;
+	background-color: #d8d8d8;
+	line-height: 50px;
+}
+
+
